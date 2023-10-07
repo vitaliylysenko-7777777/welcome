@@ -1,0 +1,75 @@
+@media (max-width:750px) {
+  
+  .block__img {
+    position: relative;
+    max-width: 750px;
+
+  }
+
+  .block__img-all {
+    max-width: 750px;
+    background-size: 100%;
+  }
+
+  .block__img-left {
+    transform: translate(-339px, -10px);
+    width: 295px;
+  }
+
+  @keyframes block__img-left {
+    0% {}
+
+    30% {
+      top: 20px;
+      left: 24px;
+      transform: rotate3d(1, 1000, 10, 75deg);
+    }
+
+    70% {
+      top: 20px;
+      left: 24px;
+      transform: rotate3d(1, 1000, 10, 75deg);
+    }
+
+    100% {}
+  }
+
+  .block__img-right {
+    transform: translate(-480px, -10px);
+    width: 275px;
+  }
+
+  @keyframes block__img-right {
+    0% {}
+
+    30% {
+      top: 18px;
+      left: 475px;
+      transform: rotate3d(1, 1000, 10, -75deg);
+    }
+
+    70% {
+      top: 18px;
+      left: 475px;
+      transform: rotate3d(1, 1000, 10, -75deg);
+    }
+
+    100% {}
+  }
+
+  .girl {
+    transform: translate(-480px, -235px);
+    width: 98px;
+  }
+  @keyframes girl {
+    0% {}
+  
+    50% {
+      top: 380px;
+      left: 770px;
+      width: 150px;
+    }
+  
+    100% {}
+  }
+}
