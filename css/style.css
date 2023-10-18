@@ -214,3 +214,9 @@ li {
 
   100% {}
 }
+.box {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: brown;
+}
